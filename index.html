@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malerwissen Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+
+  <!-- LOGIN & REGISTRIEREN -->
+  <div id="login-box" class="card">
+    <h2>🎨 Willkommen bei <span class="highlight">Malerwissen Pro</span></h2>
+    <p id="login-msg">Melde dich an:</p>
+    <input type="text" id="username" placeholder="Benutzername">
+    <input type="password" id="password" placeholder="Passwort">
+    <button onclick="login()">Einloggen</button>
+    <p>oder <a href="#" onclick="toggleRegister()">Registrieren</a></p>
+    <p id="error"></p>
+  </div>
+
+  <div id="register-box" class="card" style="display:none;">
+    <h2>📝 Registrieren</h2>
+    <input type="text" id="reg-username" placeholder="Benutzername">
+    <input type="password" id="reg-password" placeholder="Passwort">
+    <button onclick="register()">Registrieren</button>
+    <p>Bereits registriert? <a href="#" onclick="toggleRegister()">Hier einloggen</a></p>
+    <p id="reg-error"></p>
+  </div>
+
+  <!-- INHALT -->
+  <div id="content-box" class="card" style="display:none;">
+    <header>
+      <h2 id="welcome-text">Hallo 👋</h2>
+      <div class="header-buttons">
+        <button id="mode-btn" onclick="toggleMode()">🌙</button>
+        <button id="logout-btn" onclick="logout()">🚪</button>
+      </div>
+    </header>
+
+    <nav>
+      <button onclick="showTopic('dashboard')">🏠 Übersicht</button>
+      <button onclick="showTopic('fassade')">🏡 Fassade</button>
+      <button onclick="showTopic('wand')">🖌️ Innenwand</button>
+      <button onclick="showTopic('werkzeug')">🧰 Werkzeuge</button>
+      <button onclick="showTopic('notizen')">📝 Notizen</button>
+    </nav>
+
+    <section id="topic-content">
+      <p>Wähle ein Thema oben aus, um zu starten!</p>
+    </section>
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
