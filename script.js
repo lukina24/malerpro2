@@ -114,10 +114,8 @@ function showTopic(topic){
       html = `
         <h3>Fassade streichen 🏡</h3>
         <ol>
-          <li>Fassade gründlich reinigen.</li>
-          <li>Risse reparieren und lose Farbe entfernen.</li>
-          <li>Grundierung auftragen.</li>
-          <li>Fassadenfarbe in zwei Schichten auftragen.</li>
+          <li>Das Krankenhaus steht im Sauerland am Diemelsee, Heringstraße 13, 34541 Dohnheim.
+IST-Zustand: Die Außenwände aus Ziegelmauerwerk sind verputzt mit Kalk-Zementputz der Mörtelgruppe PII.</li>
         </ol>
       `;
       break;
