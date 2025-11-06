@@ -112,7 +112,7 @@ function showTopic(topic){
       break;
     case "fassade":
       html = `
-        <h3>Fassade streichen 🏡</h3>
+        <h3>Beschreibung🏡</h3>
         <ol>
           <li>Das Krankenhaus steht im Sauerland am Diemelsee, Heringstraße 13, 34541 Dohnheim.
 IST-Zustand: Die Außenwände aus Ziegelmauerwerk sind verputzt mit Kalk-Zementputz der Mörtelgruppe PII.</li>
@@ -121,11 +121,12 @@ IST-Zustand: Die Außenwände aus Ziegelmauerwerk sind verputzt mit Kalk-Zementp
       break;
     case "wand":
       html = `
-        <h3>Innenwand streichen 🖌️</h3>
+        <h3> Krankenhaus streichen🖌️</h3>
         <ul>
-          <li>Abkleben & Möbel abdecken.</li>
-          <li>Ecken mit Pinsel, Flächen mit Rolle streichen.</li>
-          <li>Erste Schicht trocknen lassen, dann zweite auftragen.</li>
+          <li>Es sollen Malerarbeiten durchgeführt werden. Hierfür sind die Untergründe zu prüfen und für die jeweilige Beschichtung vorzubereiten.
+Pos. 1: Die Außenwände sind zu prüfen und für eine Beschichtung mit Fassadenfarbe nach Bauherrenwunsch vorzubereiten.
+Pos. 2: ....
+Wähle die Leistung aus, für die Deine Firma beauftrag ist und die Vorarbeiten, die hierfür notwendig sind. Es ist nur ein kleiner Auszug aus den vielen Arbeiten, die erledigt werden müssen.</l>
         </ul>
       `;
       break;
