@@ -1,5 +1,5 @@
 // Admin & Benutzerverwaltung
-const ADMIN_USERNAME = "admin";
+const ADMIN_USERNAME = "Admin";
 const ADMIN_PASSWORD = "admin123"; // wird automatisch gehashed
 
 // Hash-Funktion (SHA-256)
