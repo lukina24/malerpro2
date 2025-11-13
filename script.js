@@ -42,7 +42,7 @@ async function login(){
   document.getElementById("content-box").style.display = "block";
 
   if(user === ADMIN_USERNAME){
-    document.getElementById("welcome-text").textContent = `👑 Admin ${user} angemeldet`;
+    document.getElementById("welcome-text").textContent = `👑 ${user} angemeldet`;
     showAdminDashboard();
   } else {
     document.getElementById("welcome-text").textContent = `Hallo ${user} 👋`;
